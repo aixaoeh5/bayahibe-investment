@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bayahibe Investment</title>
+<link rel="stylesheet" href="styles.css" />
+<script defer src="script.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="logo">
+    <img src="./images/logo.png" alt="Bayahibe Investment Logo" />
+</div>
+
+<!-- NAV DESKTOP -->
+<nav class="nav-desktop">
+    <ul class="nav-links">
+    <li><a href="venta.html">Venta</a></li>
+    <li><a href="#alquiler">Alquiler</a></li>
+    </ul>
+    <a href="#contacto" class="btn-contacto">Contacto</a>
+</nav>
+
+<!-- BOTÓN HAMBURGUESA -->
+<button class="hamburger" aria-label="Abrir menú" onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+</header>
+
+<!-- MENÚ LATERAL MOBILE -->
+<aside id="sidebar">
+<ul>
+    <li><a href="venta.html">Venta</a></li>
+    <li><a href="#alquiler">Alquiler</a></li>
+    <li><a href="#contacto">Contáctanos</a></li>
+</ul>
+</aside>
+
+<div id="overlay" onclick="toggleSidebar()"></div>
+
+
+<section class="hero">
+<div class="hero-overlay">
+    <div class="hero-text">
+    <h1>Bayahibe Investment</h1>
+    <p>Encuentra el espacio ideal con atención personalizada y confianza</p>
+    </div>
+</div>
+</section>
+
+<section class="quienes-somos">
+<div class="contenido">
+    <div class="imagen">
+    <img src="./images/imagen-secundaria.png" alt="Nuestro equipo" />
+    </div>
+    <div class="texto">
+    <h2>¿Quiénes somos?</h2>
+    <p>
+        En Bayahibe Investment, nos dedicamos a ofrecer soluciones integrales en el sector inmobiliario, adaptándonos a las necesidades específicas de cada cliente. Contamos con una amplia variedad de propiedades residenciales y comerciales, desde apartamentos y casas hasta locales y terrenos, en las mejores ubicaciones. Nuestra misión es guiarte a través de cada paso del proceso.
+    </p>
+    </div>
+</div>
+</section>
+
+<section class="servicios" id="servicios">
+<h2>Servicios</h2>
+<div class="cards">
+    <div class="card asesoramiento">
+    <h3>Asesoramiento Personalizado</h3>
+    <p>
+        Nuestro equipo de expertos está disponible para ofrecerte orientación y asistencia personalizada en cada etapa del proceso inmobiliario, asegurando que tomes decisiones informadas y acertadas.
+    </p>
+    </div>
+
+    <div class="card gestion">
+    <h3>Gestión Inmobiliaria</h3>
+    <p>
+        Si eres un inversionista, también te ofrecemos apoyo en la planificación, desarrollo y gestión de proyectos inmobiliarios, optimizando tus inversiones para maximizar los beneficios.
+    </p>
+    </div>
+
+    <div class="card venta">
+    <h3>Venta y Alquiler de Propiedades</h3>
+    <p>
+        Ofrecemos una amplia gama de opciones residenciales y comerciales, incluyendo apartamentos, casas, terrenos y proyectos inmobiliarios, adaptados a tus necesidades y presupuesto.
+    </p>
+    </div>
+
+    <div class="card airbnb">
+    <h3>Gestión de Propiedades para Airbnb</h3>
+    <p>
+        Brindamos un servicio integral para anfitriones de Airbnb, que incluye check-in y check-out, así como limpieza profesional y mantenimiento, garantizando la mejor experiencia tanto para los huéspedes como para los propietarios.
+    </p>
+    </div>
+</div>
+</section>
+
+<section id="contacto">
+<h2 class="contacto-titulo">Contáctanos</h2>
+<div class="contacto">
+<form action="https://formspree.io/f/xwpozjkk" method="POST">
+<input type="text" name="nombre" placeholder="Nombre completo" required />
+<input type="email" name="email" placeholder="E-mail" required />
+<input type="tel" name="telefono" placeholder="Número de teléfono" required />
+<button type="submit">Contáctanos</button>
+</form>
+
+
+    <div class="info-contacto">
+    <p><strong>Contacto</strong><br>
+        sunway.realestate.rd@gmail.com<br>
+        + (809) 458-9297</p>
+
+    <p><strong>Based in</strong><br>
+        Bayahíbe,<br>República Dominicana</p>
+
+    <div class="redes">
+        <a href="https://www.instagram.com/bayahibe_investment_rd" target="_blank" aria-label="Instagram">
+        <img src="/icons/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/sunwaydevelopment" target="_blank" aria-label="Facebook">
+        <img src="/icons/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://wa.me/18094589297" target="_blank" aria-label="WhatsApp">
+        <img src="/icons/whatsapp.svg" alt="WhatsApp" />
+        </a>
+    </div>
+    </div>
+</div>
+</section>
+
+<footer>
+<div class="footer-top">
+    <div class="footer-logo">
+    <img src="./images/logo.png" alt="Bayahibe Investment Logo" />
+    </div>
+
+    <div class="footer-right">
+    <div class="column">
+        <h4>Categorías</h4>
+        <ul>
+        <li><a href="#quienes">Acerca de</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#">Venta</a></li>
+        <li><a href="#">Alquiler</a></li>
+        </ul>
+    </div>
+
+    <div class="column">
+        <h4>Redes sociales</h4>
+        <ul>
+        <li><a href="mailto:sunway.realestate.rd@gmail.com" target="_blank">Gmail</a></li>
+        <li><a href="https://wa.me/18094589297" target="_blank">WhatsApp</a></li>
+        <li><a href="https://www.facebook.com/tuusuario" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/tuusuario" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <p>© 2025 Bayahibe Investment - All rights reserved - Developed & Designed by @glowbitstudio</p>
+</div>
+</footer>
+</body>
+</html>
