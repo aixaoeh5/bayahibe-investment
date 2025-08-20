@@ -13,7 +13,6 @@ El objetivo es ofrecer una experiencia **intuitiva y visualmente atractiva** par
 - **JavaScript**: Interactividad y dinámica de la web.
 - **Git & GitHub**: Control de versiones y despliegue del proyecto.
 
-*(Opcional: puedes agregar frameworks o librerías si los estás usando, por ejemplo Bootstrap, React, etc.)*
 
 ---
 
